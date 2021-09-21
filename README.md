@@ -6,7 +6,7 @@
 
 ## Hi there, I'm ajithkumar - 👋
 
-[instagram](https://www.instagram.com/ajith._.shah/)
+  - Follow me on instagram[follow][instagram]!
 
 
 A Simple MERN Stack project (MongoDB, Express, React, NodeJS)
