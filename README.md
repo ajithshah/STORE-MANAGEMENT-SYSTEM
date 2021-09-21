@@ -1,8 +1,8 @@
 
 
              
-### STORE-MANAGEMENT-SYSTEM
-## MERN
+## STORE-MANAGEMENT-SYSTEM
+# MERN
 <br />
 <br />
 ## Hi there, I'm ajithkumar - 👋
