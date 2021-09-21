@@ -10,8 +10,8 @@ app.use(bodyParser.json());
 
 const productRoutes = express.Router();
 let Product = require('./data');
-
-var dbUrl = 'mongodb://localhost:27017/mydb';
+//Add your mongoDB Atlas url
+var dbUrl = "<Add your mongoDB Atlas url>";
 
 mongoose.connect(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true }, (err) => {
     if (err) {
@@ -19,8 +19,8 @@ mongoose.connect(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true }, (er
     } else {
         console.log("Mongo DB connection success");
     }
-
 });
+
 
 // Create Product
 productRoutes.route('/create').post(function (req, res) {
@@ -45,17 +45,16 @@ productRoutes.route('/get').get(function (req, res) {
     });
 });
 
+
 // Update Product
 productRoutes.route('/update').post(function (req, res) {
-    // The Url is not as /update/:id because the id is already present in req.body, therefore haven't taken the id as parameter.
-    
     let updateProduct = new Product(req.body);
     var myquery = { id: updateProduct.id };
     Product.updateOne(myquery, updateProduct, (err, delData) => {
         res.json('Product updated!');
     })
-
 });
+
 
 // Delete Product 
 productRoutes.route('/delete/:id').get(function (req, res) {
@@ -64,8 +63,8 @@ productRoutes.route('/delete/:id').get(function (req, res) {
     Product.deleteOne(myquery, function (err, obj) {
         res.json('Msg from server: DELETED');
     });
-
 });
+
 
 app.use('/product', productRoutes);
 app.listen(PORT, function () {
