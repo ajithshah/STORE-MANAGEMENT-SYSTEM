@@ -6,7 +6,7 @@
 
 ## Hi there, I'm ajithkumar - 👋
 
-[![instagram](<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg")](https://www.instagram.com/ajith._.shah/)
+[![instagram](https://www.instagram.com/ajith._.shah/)
 
 
 A Simple MERN Stack project (MongoDB, Express, React, NodeJS)
