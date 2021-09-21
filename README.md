@@ -2,11 +2,11 @@
 
              
 ### STORE-MANAGEMENT-SYSTEM
-## https://img.shields.io/badge/---MERN-red
+## MERN
 
 ## Hi there, I'm ajithkumar - 👋
 
-[![instagram](https://img.shields.io/twitter/follow/codeSTACKr?color=1DA1F2&logo=twitter&style=for-the-badge)](https://www.instagram.com/ajith._.shah/)
+[![instagram](https://img.shields.io/instagram/follow/codeSTACKr?color=1DA1F2&logo=twitter&style=for-the-badge)](https://www.instagram.com/ajith._.shah/)
 
 
 A Simple MERN Stack project (MongoDB, Express, React, NodeJS)
