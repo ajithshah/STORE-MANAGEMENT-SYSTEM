@@ -3,11 +3,14 @@
              
 ### STORE-MANAGEMENT-SYSTEM
 ## MERN
-
+<br />
+<br />
 ## Hi there, I'm ajithkumar - 👋
 
   - Follow me on instagram[follow][instagram]!
 
+<br />
+<br />
 
 A Simple MERN Stack project (MongoDB, Express, React, NodeJS)
 STEP-1
