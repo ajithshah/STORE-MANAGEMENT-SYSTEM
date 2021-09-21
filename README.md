@@ -8,7 +8,7 @@
 
 [![instagram](https://img.shields.io/twitter/follow/codeSTACKr?color=1DA1F2&logo=twitter&style=for-the-badge)](https://www.instagram.com/ajith._.shah/)
 
-https://img.shields.io/static/v1?label=<LABEL>&message=<MESSAGE>&color=<COLOR
+https://img.shields.io/static/v1?label=<LABEL>&message=<MESSAGE>&color=<COLOR>
 A Simple MERN Stack project (MongoDB, Express, React, NodeJS)
 STEP-1
     Install npm packages(express, body-parser, cors, mongoose).
