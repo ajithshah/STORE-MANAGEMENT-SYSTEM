@@ -1,2 +1,3 @@
 # STORE-MANAGEMENT-SYSTEM
+###MERN
 A Simple #MERN Stack project
